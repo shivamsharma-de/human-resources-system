@@ -52,42 +52,42 @@ class EmployeeInformation extends Component {
                         <td>Finance</td>
                         <td>Sharma, Shivam</td>
                         <td>Senior Developer</td>
-                        <td><a href="#">more info</a></td>
+                        <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
                         <th scope="row">000002</th>
                         <td>Laboratory</td>
                         <td>Carolina, Nathaniel</td>
                         <td>Laboratory Manager</td>
-                        <td><a href="#">more info</a></td>
+                        <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
                         <th scope="row">000003</th>
                         <td>Sales</td>
                         <td>Ghule, Snehal</td>
                         <td>Sales Manager</td>
-                        <td><a href="#">more info</a></td>
+                        <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
                         <th scope="row">000001</th>
                         <td>Finance</td>
                         <td>Sharma, Shivam</td>
                         <td>Senior Developer</td>
-                        <td><a href="#">more info</a></td>
+                        <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
                         <th scope="row">000002</th>
                         <td>Laboratory</td>
                         <td>Carolina, Nathaniel</td>
                         <td>Laboratory Manager</td>
-                        <td><a href="#">more info</a></td>
+                        <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
                         <th scope="row">000003</th>
                         <td>Sales</td>
                         <td>Ghule, Snehal</td>
                         <td>Sales Manager</td>
-                        <td><a href="#">more info</a></td>
+                        <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -96,11 +96,11 @@ class EmployeeInformation extends Component {
                     <div className="col-6">
                         <nav aria-label="Page navigation example">
                         <ul class="pagination">
-                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            <li class="page-item"><a class="page-link text-success" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link text-success" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link text-success" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link text-success" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link text-success" href="#">Next</a></li>
                         </ul>
                         </nav>
                     </div>
