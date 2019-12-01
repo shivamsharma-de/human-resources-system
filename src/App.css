@@ -20,3 +20,9 @@
 .bg-gray {
   background-color: lightgray;
 }
+
+img.headshot {
+  width: auto;
+  height: 70px;
+  border-radius: 50%;
+}

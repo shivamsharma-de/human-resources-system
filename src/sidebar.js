@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import employeePicture from './employeePicture.jpg';
 
 class Sidebar extends Component {
     render() {
         return (
             <>
+                <div class="media p-3">
+                    <img src={employeePicture} class="headshot mr-3" alt="Sample HR Employee Picture" />
+                    <div class="media-body align-self-center">
+                        <h5 class="m-0">Hello Patricia!</h5>
+                    </div>
+                </div>
                 <div id="sidebar" class="list-group list-group-flush" role="tablist">
                     <a href="#" id="list-employee-information-list" data-toggle="list" href="#list-employee-information" role="tab" aria-controls="employee-information" class="list-group-item list-group-item-action list-group-item-light active"><i class="fas fa-users mr-2"></i>Employee Information</a>
                     <a href="#" id="list-department-list" data-toggle="list" href="#list-department" role="tab" aria-controls="department" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-sitemap mr-2"></i>Department</a>
