@@ -21,7 +21,7 @@ class Sidebar extends Component {
                     <a href="#" id="list-equipment-list" data-toggle="list" href="#list-equipment" role="tab" aria-controls="equipment" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-desktop mr-2"></i>Equipment</a>
                     <a href="#" id="list-separation-list" data-toggle="list" href="#list-separation" role="tab" aria-controls="separation" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-briefcase mr-2"></i>Separation</a>
                 </div>
-                <button className="btn btn-success m-3" type="submit">Add New Employee</button>                
+                <button className="btn btn-success m-3" type="submit"><i class="fas fa-plus-circle mr-2"></i>Add New Employee</button>                
             </>
         );
     }
