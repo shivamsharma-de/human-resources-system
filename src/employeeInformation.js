@@ -36,7 +36,7 @@ class EmployeeInformation extends Component {
 
                 </div>
 
-                <table class="table">
+                <table class="table table-hover">
                     <thead>
                         <tr>
                         <th scope="col">Employee ID</th>
@@ -47,6 +47,27 @@ class EmployeeInformation extends Component {
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                        <th scope="row">000001</th>
+                        <td>Finance</td>
+                        <td>Sharma, Shivam</td>
+                        <td>Senior Developer</td>
+                        <td><a href="#" className="text-success">more info</a></td>
+                        </tr>
+                        <tr>
+                        <th scope="row">000002</th>
+                        <td>Laboratory</td>
+                        <td>Carolina, Nathaniel</td>
+                        <td>Laboratory Manager</td>
+                        <td><a href="#" className="text-success">more info</a></td>
+                        </tr>
+                        <tr>
+                        <th scope="row">000003</th>
+                        <td>Sales</td>
+                        <td>Ghule, Snehal</td>
+                        <td>Sales Manager</td>
+                        <td><a href="#" className="text-success">more info</a></td>
+                        </tr>
                         <tr>
                         <th scope="row">000001</th>
                         <td>Finance</td>
