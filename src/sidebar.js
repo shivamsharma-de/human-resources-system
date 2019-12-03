@@ -6,7 +6,7 @@ class Sidebar extends Component {
         return (
             <>
                 <div className="sticky-top offset-top-56">
-                    <div class="media p-3">
+                    <div class="media p-3 border-bottom">
                         <img src={employeePicture} class="headshot mr-3" alt="Sample HR Employee Picture" />
                         <div class="media-body align-self-center">
                             <h5 class="m-0">Hello Patricia!</h5>
