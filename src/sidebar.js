@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import employeePicture from './employeePicture.jpg';
+import candidate from './candidate.js'
 
 class Sidebar extends Component {
+
     render() {
+        function redirectcandidate() {
+            const url = "src/candidate.js";
+            window.location.href="./candidate.js"
+            }
         return (
             <>
                 <div className="sticky-top offset-top-56">
@@ -113,6 +119,12 @@ class Sidebar extends Component {
                         type="submit">
                             <i class="fas fa-plus-circle mr-2"></i>
                             Add New Employee
+                    </button> 
+                    <button 
+                        className="btn btn-success m-3" 
+                        type="submit" onClick={redirectcandidate}>
+                            <i class="fas fa-plus-circle mr-2"></i>
+                            Add New Candidate
                     </button>                
                 </div>
             </>

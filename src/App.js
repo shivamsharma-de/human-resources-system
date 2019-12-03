@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import EmployeeInformation from './employeeInformation.js';
 import Navbar from './navbar.js';
-import Sidebar from './sidebar.js';
+import Sidebar from './sidebar.js'
+import candidate from './candidate.js'
 
 function App() {
   return (
