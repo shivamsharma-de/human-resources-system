@@ -36,75 +36,75 @@ class EmployeeInformation extends Component {
 
                 </div>
 
-                <table class="table table-hover">
+                <table class="table table-hover sortable">
                     <thead>
                         <tr>
-                        <th scope="col">Employee ID</th>
-                        <th scope="col">Department</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Position</th>
-                        <th scope="col">Details</th>
+                        <th scope="col" data-defaultsign='nospan'>Employee ID</th>
+                        <th scope="col" data-defaultsign='nospan'>Department</th>
+                        <th scope="col" data-defaultsign='nospan'>Name</th>
+                        <th scope="col" data-defaultsign='nospan'>Position</th>
+                        <th scope="col" data-defaultsort='disabled'>Details</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                        <th scope="row">000001</th>
+                        <td>1</td>
                         <td>Finance</td>
                         <td>Sharma, Shivam</td>
                         <td>Senior Developer</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000002</th>
+                        <td>2</td>
                         <td>Laboratory</td>
                         <td>Carolina, Nathaniel</td>
                         <td>Laboratory Manager</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000003</th>
+                        <td>3</td>
                         <td>Sales</td>
                         <td>Ghule, Snehal</td>
                         <td>Sales Manager</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000001</th>
+                        <td>4</td>
                         <td>Finance</td>
                         <td>Sharma, Shivam</td>
                         <td>Senior Developer</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000002</th>
+                        <td>5</td>
                         <td>Laboratory</td>
                         <td>Carolina, Nathaniel</td>
                         <td>Laboratory Manager</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000003</th>
+                        <td>6</td>
                         <td>Sales</td>
                         <td>Ghule, Snehal</td>
                         <td>Sales Manager</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000001</th>
+                        <td>7</td>
                         <td>Finance</td>
                         <td>Sharma, Shivam</td>
                         <td>Senior Developer</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000002</th>
+                        <td>8</td>
                         <td>Laboratory</td>
                         <td>Carolina, Nathaniel</td>
                         <td>Laboratory Manager</td>
                         <td><a href="#" className="text-success">more info</a></td>
                         </tr>
                         <tr>
-                        <th scope="row">000003</th>
+                        <td>9</td>
                         <td>Sales</td>
                         <td>Ghule, Snehal</td>
                         <td>Sales Manager</td>
@@ -136,7 +136,6 @@ class EmployeeInformation extends Component {
                     </div>
                 </div>
             </>
-
         );
     }
 }

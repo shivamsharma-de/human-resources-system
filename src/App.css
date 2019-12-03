@@ -30,3 +30,29 @@ img.headshot {
 .offset-top-56 {
   top: 56px;
 }
+
+th::after {
+  content: "\f0dc";
+  font-family: "FontAwesome";
+  font-weight: 900;
+}
+
+th.nosort::after {
+  content: "\f0dc";
+  font-family: "FontAwesome";
+  font-weight: 900;
+}
+
+th.up::after {
+  content: "\f0dd";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  color: #28a745 !important;
+}
+
+th.down::after {
+  content: "\f0de";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  color: #28a745 !important;
+}
