@@ -33,24 +33,14 @@ function App() {
               <p>test</p>
             </div>
             <div class="tab-pane fade" id="list-recruitment" role="tabpanel" aria-labelledby="list-recruitment">
-              <p>test</p>
-              <a 
-                            href="./candidate.js" 
-                            id="Addcandidate" 
-                            data-toggle="list" 
-                            role="tab" 
-                            aria-controls="hr-candidate" 
-                            class="list-group-item list-group-item-action list-group-item-light">
-                                <i class="fas fa-portrait mr-2 ml-4"></i>
-                                Add new candidate
-               <Candidate />
-               </a>
-               
-              
+            <Candidate />
             </div>
+            
+
             <div class="tab-pane fade" id="list-equipment" role="tabpanel" aria-labelledby="list-equipment">
               <p>test</p>
             </div>
+
             <div class="tab-pane fade" id="list-separation" role="tabpanel" aria-labelledby="list-separation">
               <p>test</p>
             </div>

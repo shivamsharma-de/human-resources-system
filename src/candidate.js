@@ -13,9 +13,9 @@ class Candidate extends Component {
                 </div>     
                 </div>
             </div>
-                <div class="col-md-8 order-md-1">
-                <h4 class="mb-3">Genric Details</h4>
-                <form class="needs-validation form-group" novalidate="">
+                <div class=" col-6 order-md-1  text-center">
+                    <h4 class="mb-3">Genric Details</h4>
+                    <form class="needs-validation form-group" novalidate="">
                     <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="firstName">First name</label>

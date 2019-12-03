@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import employeePicture from './employeePicture.jpg';
+import candidate from './candidate.js';
 
 
 class Sidebar extends Component {
@@ -94,6 +95,17 @@ class Sidebar extends Component {
                                 Recruitment
                                 {/* <i class="fas fa-chevron-down ml-2"></i> */}
                             
+                        </a>
+                        <a 
+                            href="#candidate-form" 
+                            id="Add-candidate" 
+                            role="tab" 
+                            aria-controls="Add-candidate" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-portrait mr-2 ml-4"></i>
+                                Add new candidate
+                    
+ 
                         </a>
 
                         <a 
