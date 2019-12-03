@@ -23,15 +23,29 @@ class Sidebar extends Component {
                                 <i class="fas fa-users mr-2"></i>
                                 Employee Information
                         </a>
+                        <p class="list-group-item disabled list-group-item-light small text-uppercase m-0 py-1">
+                                Departments
+                                {/* <i class="fas fa-chevron-down ml-2"></i> */}
+                        </p>
                         <a 
-                            href="#list-department" 
-                            id="list-department-list" 
+                            href="#list-department-finance" 
+                            id="list-department-finance-list" 
                             data-toggle="list" 
                             role="tab" 
-                            aria-controls="department" 
+                            aria-controls="department-finance" 
                             class="list-group-item list-group-item-action list-group-item-light">
-                                <i class="fas fa-sitemap mr-2"></i>
-                                Department
+                                <i class="fas fa-file-invoice-dollar mr-2 ml-4"></i>
+                                Finance
+                        </a>
+                        <a 
+                            href="#list-department-hr" 
+                            id="list-department-hr-list" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="department-hr" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-portrait mr-2 ml-4"></i>
+                                Human Resources
                         </a>
                         <a 
                             href="#list-payroll" 
