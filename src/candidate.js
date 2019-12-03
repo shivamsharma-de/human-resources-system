@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class candidate extends Component {
+class Candidate extends Component {
     render(){
         return (
         <>
@@ -37,7 +37,7 @@ class candidate extends Component {
                     <label for="email">Email <span class="text-muted">(Optional)</span></label>
                     <input type="email" class="form-control" id="email" placeholder="you@example.com"/>
                     <div class="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
+                        Please enter a valid email address.
                     </div>
                     </div>
 
@@ -165,16 +165,7 @@ class candidate extends Component {
                         <div class="invalid-feedback">
                         Valid School name is required.
                         </div>
-                    <div class="col-sm-6" style="height:130px;">
-                    
-                        <div class='input-group date' id='datetimepicker10'>
-                        < input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-calendar">
-                        </span>
-                        </span>
-                    </div>
-                    </div>
+
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="Degree">Degree name</label>
@@ -193,5 +184,6 @@ class candidate extends Component {
         );
 
     
-    }
+    } 
 }
+export default Candidate;

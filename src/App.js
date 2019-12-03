@@ -4,7 +4,8 @@ import './App.css';
 import EmployeeInformation from './employeeInformation.js';
 import Navbar from './navbar.js';
 import Sidebar from './sidebar.js'
-import candidate from './candidate.js'
+import Candidate from './candidate.js';
+
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <div className="row">
         <div className="col-2 pr-0 border-right"><Sidebar /></div>
+        
         <div className="col-10 p-4">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-employee-information" role="tabpanel" aria-labelledby="list-employee-information">
@@ -32,6 +34,19 @@ function App() {
             </div>
             <div class="tab-pane fade" id="list-recruitment" role="tabpanel" aria-labelledby="list-recruitment">
               <p>test</p>
+              <a 
+                            href="./candidate.js" 
+                            id="Addcandidate" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="hr-candidate" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-portrait mr-2 ml-4"></i>
+                                Add new candidate
+               <Candidate />
+               </a>
+               
+              
             </div>
             <div class="tab-pane fade" id="list-equipment" role="tabpanel" aria-labelledby="list-equipment">
               <p>test</p>
