@@ -26,3 +26,7 @@ img.headshot {
   height: 70px;
   border-radius: 50%;
 }
+
+.offset-top-56 {
+  top: 56px;
+}
