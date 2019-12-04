@@ -20,7 +20,7 @@ class Sidebar extends Component {
         let recruitmentLink = document.getElementById("list-recruitment-list");
         recruitmentLink.classList.toggle("active");
     }
-    
+
     render() {
         return (
             <>
@@ -29,6 +29,7 @@ class Sidebar extends Component {
                         <img src={employeePicture} class="headshot mr-3" alt="Sample HR Employee Picture" />
                         <div class="media-body align-self-center">
                             <h5 class="m-0">Hello Patricia!</h5>
+                            <a href="#" className="small text-success">Sign out<i class="fas fa-sign-out-alt ml-1"></i></a>
                         </div>
                     </div>
                     <div id="sidebar" class="list-group list-group-flush" role="tablist">
