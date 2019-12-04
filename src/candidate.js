@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class Candidate extends Component {
     render(){
+
         return (
         <>
             <div class="row justify-content-md-center">
@@ -13,8 +14,9 @@ class Candidate extends Component {
                 </div>     
                 </div>
             </div>
+            <div class="row justify-content-md-center">
                 <div class=" col-6 order-md-1  text-center">
-                    <h4 class="mb-3">Genric Details</h4>
+                    <h4 class="mb-3">Personal Details</h4>
                     <form class="needs-validation form-group" novalidate="">
                     <div class="row">
                     <div class="col-md-6 mb-3">
@@ -162,6 +164,8 @@ class Candidate extends Component {
                     <div class="col-md-6 mb-3">
                         <label for="SchoolName">School name</label>
                         <input type="text" class="form-control" id="SchoolName" placeholder="" value="" required=""/>
+                        <label class="mr-2" for="start_date">Start Date:</label>
+                        <input type="date" class="form-control mr-3" id="start_date" />
                         <div class="invalid-feedback">
                         Valid School name is required.
                         </div>
@@ -170,15 +174,49 @@ class Candidate extends Component {
                     <div class="col-md-6 mb-3">
                         <label for="Degree">Degree name</label>
                         <input type="text" class="form-control" id="Degree" placeholder="" value="" required=""/>
+                        <label class="mr-2" for="end_date">End Date:</label>
+                        <input type="date" class="form-control mr-3" id="End_date" />
                         <div class="invalid-feedback">
-                        Valid last name is required.
+                        Valid Degree is required.
                         </div>
                     </div>
                     </div>
                     <hr class="mb-4"/>
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+                    <hr class="mb-4"/>
+                    <h4 class="mb-4">Work History</h4>
+                    <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="CompanyName">Comapny</label>
+                        <input type="text" class="form-control" id="CompanyName" placeholder="" value="" required=""/>
+                        <label class="mr-2" for="start_date">Start Date:</label>
+                        <input type="date" class="form-control mr-3" id="start_date" />
+
+                        <div class="invalid-feedback">
+                        Valid Company name is required.
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="PositionName">Position</label>
+                        <input type="text" class="form-control" id="Position" placeholder="" value="" required=""/>
+                        <label class="mr-2" for="end_date">End Date:</label>
+                        <input type="date" class="form-control mr-3" id="End_date" />
+                        <div class="invalid-feedback">
+                        Valid position name is required.
+                        </div>
+                    </div>
+
+                        
+                      
+                            
+                        
+                    </div>
+                    <hr class="mb-4"/>
+                    <button class="btn btn-primary btn-lg btn-block btn-success" type="submit">Submit</button>
                 </form>
                 </div>  
+                
+            </div>
 
         </>
         );
