@@ -17,6 +17,10 @@
   color: #09d3ac;
 }
 
+html {
+  padding-top: 56px;
+}
+
 .bg-gray {
   background-color: lightgray;
 }
