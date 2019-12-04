@@ -29,6 +29,16 @@ class Sidebar extends Component {
                                 {/* <i class="fas fa-chevron-down ml-2"></i> */}
                         </p>
                         <a 
+                            href="#list-department-admin" 
+                            id="list-department-admin-list" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="department-admin" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-copy mr-2 ml-4"></i>
+                                Administrative
+                        </a>
+                        <a 
                             href="#list-department-finance" 
                             id="list-department-finance-list" 
                             data-toggle="list" 
@@ -39,6 +49,26 @@ class Sidebar extends Component {
                                 Finance
                         </a>
                         <a 
+                            href="#list-department-development" 
+                            id="list-department-development-list" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="department-development" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-code mr-2 ml-4"></i>
+                                Development
+                        </a>
+                        <a 
+                            href="#list-department-qualityAssurance" 
+                            id="list-department-qualityAssurance-list" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="department-qualityAssurance" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-list-alt mr-2 ml-4"></i>
+                                Quality Assurance
+                        </a>
+                        <a 
                             href="#list-department-hr" 
                             id="list-department-hr-list" 
                             data-toggle="list" 
@@ -47,6 +77,16 @@ class Sidebar extends Component {
                             class="list-group-item list-group-item-action list-group-item-light">
                                 <i class="fas fa-portrait mr-2 ml-4"></i>
                                 Human Resources
+                        </a>
+                        <a 
+                            href="#list-department-itSupport" 
+                            id="list-department-itSupport-list" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="department-itSupport" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-question-circle mr-2 ml-4"></i>
+                                IT Support
                         </a>
                         <a 
                             href="#list-payroll" 
@@ -101,6 +141,16 @@ class Sidebar extends Component {
                                 Add New Candidate
                         </a>
                         <a 
+                            href="#list-candidate-edit" 
+                            id="list-candidate-edit-list" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="candidate-edit" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-user-edit mr-2 ml-4"></i>
+                                Edit Candidate
+                        </a>
+                        <a 
                             href="#list-employee-form" 
                             id="list-employee-form-list" 
                             data-toggle="list" 
@@ -130,14 +180,7 @@ class Sidebar extends Component {
                                 <i class="fas fa-briefcase mr-2"></i>
                                 Separation
                         </a>
-                    </div>
-                    <button 
-                        className="btn btn-success m-3" 
-                        type="submit">
-                            <i class="fas fa-plus-circle mr-2"></i>
-                            Add New Employee
-                    </button> 
-               
+                    </div>               
                 </div>
             </>
         );
