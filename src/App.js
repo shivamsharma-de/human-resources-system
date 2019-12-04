@@ -32,8 +32,8 @@ function App() {
             <div class="tab-pane fade" id="list-performance" role="tabpanel" aria-labelledby="list-performance">
               <p>test</p>
             </div>
-            <div class="tab-pane fade" id="list-recruitment" role="tabpanel" aria-labelledby="list-recruitment">
-            <Candidate />
+            <div class="tab-pane fade" id="list-candidate-form" role="tabpanel" aria-labelledby="list-candidate-form">
+              <Candidate />
             </div>
             
 

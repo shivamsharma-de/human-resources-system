@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import employeePicture from './employeePicture.jpg';
-import candidate from './candidate.js';
-
 
 class Sidebar extends Component {
-
-
-
-
     render() {
  
         return (
@@ -97,17 +91,25 @@ class Sidebar extends Component {
                             
                         </a>
                         <a 
-                            href="#candidate-form" 
-                            id="Add-candidate" 
+                            href="#list-candidate-form" 
+                            id="list-candidate-form-list" 
+                            data-toggle="list" 
                             role="tab" 
-                            aria-controls="Add-candidate" 
+                            aria-controls="candidate-form" 
                             class="list-group-item list-group-item-action list-group-item-light">
-                                <i class="fas fa-portrait mr-2 ml-4"></i>
-                                Add new candidate
-                    
- 
+                                <i class="fas fa-plus-circle mr-2 ml-4"></i>
+                                Add New Candidate
                         </a>
-
+                        <a 
+                            href="#list-employee-form" 
+                            id="list-employee-form-list" 
+                            data-toggle="list" 
+                            role="tab" 
+                            aria-controls="employee-form" 
+                            class="list-group-item list-group-item-action list-group-item-light">
+                                <i class="fas fa-plus-circle mr-2 ml-4"></i>
+                                Add New Employee
+                        </a>
                         <a 
                             href="#list-equipment" 
                             id="list-equipment-list" 
